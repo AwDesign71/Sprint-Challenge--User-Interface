@@ -101,7 +101,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+.top-container h2 {
+    font-weight: 900;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -128,7 +130,27 @@ p {
     align-items: center;
     justify-content: center;
 }
+ .teal {
+     background: teal;
+ }
+  
+ .boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px 0;
+} 
+.box1, .box2, .box3, .box4 {
+ width: 370px;
+ margin: 22px 14px;
+}
 
+ .boxes-container h3 {
+   padding: 0 0 -3px 0;
+ }
+.boxes-container img {
+    padding-bottom: 10px;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
