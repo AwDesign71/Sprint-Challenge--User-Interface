@@ -70,7 +70,23 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.lambda-logo {
+    margin: 25px;
+}
+.navigation {
+    margin-top: 48px;
+    padding: 0 20px;
+}
+.navigation a {
+    padding: 0 29px;
+    text-decoration: none;
+    color: #000;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
