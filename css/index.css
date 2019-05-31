@@ -74,9 +74,10 @@ p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 .lambda-logo {
-    margin: 25px;
+    margin: 25px 0;
 }
 .navigation {
     margin-top: 48px;
